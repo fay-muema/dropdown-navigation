@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.link{
+    @apply mr-6 text-secondary
+}
+.snap{
+    @apply  mr-10 text-primary font-bold text-4xl md:p-2
+}
+
+.menu1{
+    display: block;
+}
+.menu2{
+    display: none;
+
+}
+
+
+.show{
+    display:inline-block;
+}
+.nav-l{
+    @apply absolute inline-block top-6 right-0 bg-white h-screen w-1/2 p-4
+}
+.features-content{
+    display: inline-block;
+
+}
